@@ -1,5 +1,6 @@
 import com.mysql.cj.exceptions.DataReadException;
 
+import javax.xml.crypto.Data;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -9,8 +10,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabaseInit {
-
-
+    
 
 
     public static void initDB(){

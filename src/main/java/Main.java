@@ -1,18 +1,35 @@
-import org.flywaydb.core.Flyway;
 
-import javax.sql.DataSource;
-import javax.xml.crypto.Data;
+import client.Client;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
-         Connection connection = Database.getInstance().getConnection();
+//                try {
+//           System.out.println(ClientService.insertClientByName("Jochan"));
+//        } catch (InsertExeption e) {
+//            throw new RuntimeException(e);
+//        }
+//        System.out.println(ClientService.getNameClientById(8));
 
+//        try {
+//            ClientService.setNameClientById(1, "Olja");
+//        } catch (InsertExeption e) {
+//            throw new RuntimeException(e);
+//        }
 
+//        try {
+//            ClientService.deleteClientById(13);
+//        } catch (InsertExeption e) {
+//            throw new RuntimeException(e);
+//        }
 
+//        System.out.println(ClientService.getClientList());
+
+//        Connection connection = Database.getInstance().getConnection();
 //        DatabaseInit.initDB();
-        //DatabaseInit.insertDB();
+//        DatabaseInit.insertDB();
 
     }
 }
